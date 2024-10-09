@@ -1,0 +1,46 @@
+.main-parent {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 320px 320px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+}
+
+.item1 {
+    padding-right: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;  
+    background-color: cornflowerblue;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+
+.item2 {
+    padding-right: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* ეს გამოვიყენე როუების გასათანაბრებლად, parent1-ში gap-ით 10 პიქსელი ემატებოდა კონტეინერს parent2-ში 20 პიქსელი მეტი როუების გამო*/
+.item {
+    margin-bottom: 10px;
+}
+
+
